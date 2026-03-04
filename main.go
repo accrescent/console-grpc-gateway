@@ -20,7 +20,7 @@ import (
 	"google.golang.org/grpc/grpclog"
 )
 
-const appVersion = "0.1.0"
+const appVersion = "0.1.1"
 
 func main() {
 	cfg := &config{}
