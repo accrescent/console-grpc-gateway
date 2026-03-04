@@ -17,4 +17,4 @@ COPY --from=builder /build/api-grpc-gateway .
 
 USER 65532:65532
 EXPOSE 8080
-ENTRYPOINT ["api-grpc-gateway"]
+ENTRYPOINT ["/app/api-grpc-gateway"]
