@@ -20,6 +20,8 @@ import (
 	"google.golang.org/grpc/grpclog"
 )
 
+const appVersion = "0.1.0"
+
 func main() {
 	cfg := &config{}
 	flag.StringVar(
@@ -83,7 +85,7 @@ func run(config *config) error {
 	}
 
 	listenAddr := fmt.Sprintf(":%d", config.listenPort)
-	log.Printf("Starting gateway on %s", listenAddr)
+	log.Printf("Starting gateway version %s on %s", appVersion, listenAddr)
 
 	return http.ListenAndServe(listenAddr, mux)
 }
