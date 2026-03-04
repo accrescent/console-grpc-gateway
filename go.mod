@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-only
 
-module golang.accrescent.app/console-grpc-gateway
+module golang.accrescent.app/api-grpc-gateway
 
 go 1.26.0
 
