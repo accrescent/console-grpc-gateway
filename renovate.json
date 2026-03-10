@@ -8,7 +8,5 @@
     "enabled": true,
     "commitMessageAction": "Update lock file"
   },
-  "postUpdateOptions": {
-    "gomodTidy": true
-  }
+  "postUpdateOptions": ["gomodTidy"]
 }
