@@ -9,7 +9,7 @@ go 1.26.0
 require (
 	buf.build/gen/go/accrescent/console-api/grpc-ecosystem/gateway/v2 v2.28.0-20260310011136-40b579234203.1
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.28.0
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260316180232-0b37fe3546d5
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260319201613-d00831a3d3e7
 	google.golang.org/grpc v1.79.3
 )
 
